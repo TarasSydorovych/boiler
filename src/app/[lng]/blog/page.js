@@ -30,7 +30,7 @@ export default async function WorksPage({ params: { lng } }) {
 
   return (
     <div className={styles.wrapAllWorks}>
-      <GoogleAnalytics gaId="G-DJMSC241E7" />
+      <GoogleAnalytics gaId="G-YWFWM7SVSP" />
       <Header t={t} lng={lng} />
 
       <div className={styles.worksContainer}>

@@ -241,7 +241,7 @@ export default async function WorkDetailPage({ params }) {
 
   return (
     <div className={styles.workDetailPage}>
-      <GoogleAnalytics gaId="G-DJMSC241E7" />
+      <GoogleAnalytics gaId="G-YWFWM7SVSP" />
       <Header t={t} lng={lng} />
       <div className={styles.wrapFirstBlock}>
         <div className={styles.wrapHadnSmalDesc}>

@@ -34,7 +34,7 @@ const About = async ({ params: { lng } }) => {
 
   return (
     <main className={styles.main}>
-      <GoogleAnalytics gaId="G-DJMSC241E7" />
+      <GoogleAnalytics gaId="G-YWFWM7SVSP" />
       <Header t={t} lng={lng} />
       <FirstBlockContact t={t} lng={lng} />
       <Footer t={t} lng={lng} />

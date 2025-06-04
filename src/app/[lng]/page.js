@@ -50,7 +50,7 @@ const Home = async ({ params: { lng } }) => {
   return (
     <>
       <main className={styles.main}>
-        <GoogleAnalytics gaId="G-DJMSC241E7" />
+        <GoogleAnalytics gaId="G-YWFWM7SVSP" />
         <Header t={t} lng={lng} />
         <FirstBlock t={t} lng={lng} />
         <SecondBlock t={t} lng={lng} />

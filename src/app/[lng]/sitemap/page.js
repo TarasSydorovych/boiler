@@ -34,7 +34,7 @@ const Sitemap = async ({ params: { lng } }) => {
 
   return (
     <main className={styles.main}>
-      <GoogleAnalytics gaId="G-0E582NZFDX" />
+      <GoogleAnalytics gaId="G-YWFWM7SVSP" />
       <Header t={t} lng={lng} />
       <FirstBlock t={t} lng={lng} />
 
