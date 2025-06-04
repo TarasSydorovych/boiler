@@ -1,0 +1,774 @@
+.firtBlockAbout {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0c0c0c;
+}
+.blockInFirst {
+  width: 1140px;
+  height: 366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.advantageWr {
+  width: 560px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 48px;
+}
+.advantTitleM {
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.advantDescriptM {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.firstImageSt {
+  width: 466px;
+  height: 466px;
+  transform: rotate(85deg);
+}
+.secondWrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #0c0c0c;
+  overflow: hidden;
+  position: relative;
+}
+.wrapTwoBlockInfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  margin-top: 100px;
+}
+.oneBlockWrapd {
+  width: calc(463px - 48px);
+  height: calc(415px - 48px);
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #161616;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.blockKvadratWWrap {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kvadratWhite {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  margin-right: 12px;
+}
+.greyDescUt {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: uppercase;
+  margin: 0;
+}
+.desctInSerd {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 24px;
+}
+.datFirst {
+  position: absolute;
+  top: 0;
+  left: 50.6%;
+}
+.datSecond {
+  position: absolute;
+  top: 0;
+  right: 50.6%;
+}
+.kubSt {
+  width: 474.324px;
+  height: 474.331px;
+  position: absolute;
+  top: 300px;
+}
+.ourGoalWrap {
+  width: 100%;
+  height: auto;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.secondPGoal {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 64px;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.goalPDecsription {
+  width: 780px;
+  color: #6d6d6d;
+  margin: 0;
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.wrapGoalList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+.oneBlockInGolaB {
+  width: calc(270px);
+  height: calc(288px);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+}
+.blockDescritpionsBel {
+  color: #c3c3c3;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.iconInNumber {
+  position: absolute;
+  top: -16.5px;
+  left: calc(50% - 21.5px);
+}
+.firstLineIn {
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+}
+.wrapWhoWillWork {
+  background-size: cover;
+  background-position: center;
+  width: 1144px;
+  height: 522px;
+  object-fit: contain;
+  z-index: 20;
+  border-radius: 20px;
+  padding: 49px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.firstWrapInWill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.h4WillWork {
+  color: #fff;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  width: 261px;
+}
+.pWillWorkWdf {
+  margin: 0;
+  color: rgb(155, 153, 153);
+  width: 317px;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.wrapWillWorkFour {
+  width: 607px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.oneWillWorkL {
+  width: 286px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mainWillWithIconWrP {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.willWorkIconsd {
+  margin-right: 16px;
+}
+.pIndWillWorkMain {
+  margin: 0;
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sitesMao {
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.pIndWillWorkMainSA {
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+  margin-top: 59px;
+}
+.listLandignd {
+  width: 1140px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 10;
+  margin-top: 150px;
+  margin-bottom: 64px;
+}
+.activLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+  padding: 8px 24px;
+  border-radius: 7px;
+  background: #6a6a6a;
+  color: #ececec;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.notActivLink {
+  padding: 8px 24px;
+  border-radius: 7px;
+  border: 1px solid #6a6a6a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6a6a6a;
+  height: 50px;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+.advantP {
+  margin: 0;
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: uppercase;
+  margin-top: 94px;
+}
+.advantPh3 {
+  margin: 0;
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: uppercase;
+}
+.advantPDesc {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 32px;
+  width: 491px;
+}
+.advantPDescH3 {
+  color: #6d6d6d;
+  margin: 0;
+  color: #6d6d6d;
+  width: 610px;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  z-index: 10;
+}
+.threBlockL {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 65px;
+}
+.oneBlockNi {
+  width: 270px;
+  height: 430px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.numberKter {
+  color: #363636;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.oneBlockNiFirst {
+  width: 367px;
+  height: 395px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 30px;
+}
+.oneBlockNiSecond {
+  width: 464px;
+  height: 380px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.oneBlockNiFour {
+  width: 464px;
+  height: 470px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.wrapAnother {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.oneBlockNiThre {
+  width: 367px;
+  height: 380px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.oneBlockNiFive {
+  width: 656px;
+
+  height: 240px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.oneBlockNiSix {
+  width: 656px;
+
+  height: 220px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.wrapTwoSmall {
+  width: 656px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.iconInBlockIm {
+  position: absolute;
+  top: -16.5px;
+}
+.nameOneDesc {
+  color: #c3c3c3;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.sectionThreBlock {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0c0c0c;
+}
+.blockWrapServise {
+  margin-top: 51px;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 121px;
+}
+.blockCssServ {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 367px;
+  height: 250px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 90% 100%, 0% 100%);
+  background: #0c0c0c;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.sitcaSt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapSmallKL {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.landP {
+  color: #fff;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapAnalisIcon {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconInfd {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.servDesc {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
+.wrapBussinesLqw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  margin-top: 90px;
+}
+.wrapFirstBapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.wrapBussinesL {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  margin-top: 90px;
+
+  width: 90%;
+}
+.pInKotlin {
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+}
+.wrapLdse {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.werticalLine {
+  width: 2px;
+  background: #404040;
+  height: 320px;
+  margin-right: 16px;
+  margin-left: 17px;
+}
+.importsntBlock {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.textWrapIm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.imortantPTitle {
+  color: #fff;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 23px;
+}
+.descriptionsImortant {
+  margin: 0;
+  color: #6d6d6d;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  width: 461px;
+  text-align: start;
+}
+.imortantImage {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 10;
+
+  width: 560px;
+  height: 382px;
+  box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+}
+.lastPInBis {
+  color: #6d6d6d;
+
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 754px;
+  align-self: center;
+}
+.appMainPT {
+  margin: 0;
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: uppercase;
+  margin-top: 94px;
+}
+.appMaitPdescription {
+  margin: 0;
+  width: 754px;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 32px;
+  margin-bottom: 120px;
+}
+.appIconIfEw {
+  width: 353.733px;
+  height: 353.739px;
+}
+.wrapSitkaBlocks {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 62px;
+}

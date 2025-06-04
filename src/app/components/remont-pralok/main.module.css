@@ -1,0 +1,1348 @@
+.wrapFirst {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+.h1Wrap {
+  width: calc(1160.04px);
+  padding-left: 36px;
+  padding-right: 36px;
+  height: 186.67px;
+  background: #e87a4f;
+  border-radius: 10px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firsth1 {
+  color: #fff;
+
+  font-family: "Segoe UI Variable";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wrapdownBlock {
+  width: 1160.04px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapTwoPwithButton {
+  width: 675px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.firstP {
+  color: #000;
+  margin-top: 80px;
+  font-family: "Segoe UI Variable";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.buttonSendForm {
+  width: 510px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #e87a4f;
+  color: #fff;
+  margin-top: 80px;
+  font-family: "Segoe UI Variable";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.imageForFirst {
+  width: 490px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.wrapSecondBlock {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: white;
+}
+.relativeP {
+  position: absolute;
+  color: #dedede;
+
+  font-family: "Segoe UI Variable";
+  font-size: 451px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  top: -150px;
+}
+
+.wrapPerevagu {
+  width: 1159.89px;
+  height: 654.95px;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: -4.79px 7.19px 45.52px rgba(0, 0, 0, 0.69);
+  margin-bottom: 100px;
+}
+
+.wrapPerevagu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+.wrapPerevagu > * {
+  position: relative;
+  z-index: 1;
+}
+
+.mainPinperev {
+  color: #e87a4f;
+  margin-top: 29px;
+  font-family: "Segoe UI Variable";
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.prevInd {
+  color: #000;
+  margin-top: 14px;
+  font-family: "Segoe UI Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapTwoUl {
+  width: 954px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 46px;
+}
+.perevaguUl {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px;
+}
+.liInPerevagu {
+  color: #000;
+
+  font-family: "Segoe UI Variable";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.wrapThreBlock {
+  width: 100%;
+  height: auto;
+  background: #e87a4f;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.nameForBoiler {
+  position: absolute;
+  color: white;
+
+  font-family: "Segoe UI Variable";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  top: 0px;
+  white-space: nowrap;
+}
+.nameForBoilerTwo {
+  position: absolute;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: normal;
+  color: white; /* заповнення всередині */
+  -webkit-text-stroke: 1px gray; /* контур */
+  text-stroke: 1px gray; /* для сумісності */
+  background: transparent;
+  top: 350px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.wrapOneBlocInVuizd {
+  margin-top: 300px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 188px;
+}
+.wrapOneBlocInVuizdTwo {
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 188px;
+}
+.wrapOneBlocInVuizdThre {
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 188px;
+}
+.blockForVuizd {
+  width: calc(598.73px - 64px);
+  height: 261.37px;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 65px;
+}
+.blockForVuizdTwo {
+  width: calc(598.73px - 64px);
+  height: 371px;
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 65px;
+}
+.diagnostPn {
+  color: #000;
+
+  font-family: "Segoe UI Variable";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 55px;
+}
+ul.newulForBlock {
+  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px;
+  margin-top: 24px;
+}
+ul.newulForBlock li::marker {
+  color: #e87a4f;
+}
+.orangeLi {
+  color: #e87a4f;
+
+  font-family: "Segoe UI Variable";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.iconremBouler {
+  border-radius: 5px;
+  max-width: 568px;
+  height: auto;
+}
+.priceHaveFOr {
+  color: #e87a4f;
+
+  font-family: "Segoe UI Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.priceHaveFOrD {
+  color: #e87a4f;
+
+  font-family: "Segoe UI Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 15px;
+}
+.freConsult {
+  width: 573px;
+  height: 84.34px;
+  border: none;
+  background: white;
+  border-radius: 5px;
+  color: #e87a4f;
+
+  font-family: "Segoe UI Variable";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.wrapFuorBlock {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: white;
+  position: relative;
+}
+.remontBilder {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.leftSdas {
+  cursor: pointer;
+}
+.rigArrovLf {
+  cursor: pointer;
+}
+.blockForRemDsa {
+  width: 810.54px;
+  height: 406.32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75);
+  background: #f3f4f4;
+  border-radius: 20px;
+}
+.remInSlider {
+  max-width: 590px;
+
+  color: #272727;
+  text-align: center;
+  font-family: "Segoe UI Variable";
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.smalRemInds {
+  color: #000;
+  width: 80%;
+  text-align: center;
+  font-family: "Segoe UI Variable";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.priceVidInSlider {
+  color: #272727;
+
+  font-family: "Segoe UI Variable";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wrapWiners {
+  position: relative;
+  width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 105px;
+  z-index: 2;
+}
+.oneBLockInWiner {
+  width: 375.65px;
+  height: 196.43px;
+  background: #f0f1f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  border: 0.81px solid black;
+}
+.numberFor {
+  color: #000;
+
+  text-align: center;
+  font-family: "Segoe UI Variable";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nameNumberf {
+  color: #000;
+
+  text-align: center;
+  font-family: "Segoe UI Variable";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* main.module.css */
+
+.seoSection {
+  padding: 40px 20px;
+  max-width: 100%;
+  background: white;
+  margin: 0 auto;
+  font-family: "Segoe UI Variable", sans-serif;
+  color: #333;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.seoSection h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.seoSection h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 30px 0 15px;
+  color: #222;
+}
+
+.seoSection h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 25px 0 10px;
+  color: #444;
+}
+
+.seoSection p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.seoSection ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.seoSection ul li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  list-style-type: disc;
+  color: #444;
+}
+
+.seoSection strong {
+  font-weight: 600;
+  color: #000;
+}
+.aboutUsWrapQw {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+}
+.aboutUsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Segoe UI Variable", sans-serif;
+}
+
+.videoContainer {
+  flex: 1 1 500px;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.video {
+  width: 600px;
+  height: auto;
+}
+
+.textContainer {
+  width: 600px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Segoe UI Variable", sans-serif;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #444;
+  font-family: "Segoe UI Variable", sans-serif;
+}
+@media only screen and (max-width: 479px) and (min-width: 300px) {
+  .h1Wrap {
+    width: 99%;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: auto;
+    background: #e87a4f;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firsth1 {
+    color: #fff;
+
+    font-family: "Segoe UI Variable";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+  }
+  .wrapdownBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapTwoPwithButton {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .firstP {
+    color: #000;
+    margin-top: 25px;
+    font-family: "Segoe UI Variable";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .buttonSendForm {
+    width: 99%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #e87a4f;
+    color: #fff;
+    margin-top: 30px;
+    font-family: "Segoe UI Variable";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+  }
+  .imageForFirst {
+    width: 99%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .relativeP {
+    position: absolute;
+    color: #dedede;
+    display: none;
+    font-family: "Segoe UI Variable";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: -100px;
+  }
+  .wrapPerevagu {
+    width: 99%;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: -4.79px 7.19px 45.52px rgba(0, 0, 0, 0.69);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  .mainPinperev {
+    color: #e87a4f;
+    margin-top: 29px;
+    font-family: "Segoe UI Variable";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .prevInd {
+    color: #000;
+    margin-top: 14px;
+    font-family: "Segoe UI Variable";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .wrapTwoUl {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 46px;
+  }
+  .nameForBoiler {
+    display: none;
+  }
+  .wrapOneBlocInVuizd {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .blockForVuizd {
+    width: calc(100% - 10px);
+    height: auto;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .diagnostPn {
+    color: #000;
+
+    font-family: "Segoe UI Variable";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+  }
+  ul.newulForBlock {
+    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .iconremBouler {
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .wrapOneBlocInVuizdTwo {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .wrapOneBlocInVuizdThre {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .blockForVuizdTwo {
+    width: calc(99% - 10px);
+    height: auto;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .freConsult {
+    width: 100%;
+    height: 84.34px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    color: #e87a4f;
+
+    font-family: "Segoe UI Variable";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .aboutUsWrapQw {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .videoContainer {
+    flex: 1 1 500px;
+    max-width: 99%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  .videoContainer {
+    flex: 1 1 500px;
+    max-width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+  .remontBilder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+  .leftSdas {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  .rigArrovLf {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  .blockForRemDsa {
+    width: calc(100% - 70px);
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75);
+    background: #f3f4f4;
+    border-radius: 20px;
+  }
+  .remInSlider {
+    max-width: 99%;
+
+    color: #272727;
+    text-align: center;
+    font-family: "Segoe UI Variable";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .smalRemInds {
+    color: #000;
+    width: 90%;
+    text-align: center;
+    font-family: "Segoe UI Variable";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .priceVidInSlider {
+    color: #272727;
+
+    font-family: "Segoe UI Variable";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .wrapWiners {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 2;
+  }
+  .oneBLockInWiner {
+    max-width: 300px;
+    height: 196.43px;
+    background: #f0f1f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    border: 0.81px solid black;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 479px) {
+  .h1Wrap {
+    width: 99%;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: auto;
+    background: #e87a4f;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firsth1 {
+    color: #fff;
+
+    font-family: "Segoe UI Variable";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+  }
+  .wrapdownBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapTwoPwithButton {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .firstP {
+    color: #000;
+    margin-top: 25px;
+    font-family: "Segoe UI Variable";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .buttonSendForm {
+    width: 479px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #e87a4f;
+    color: #fff;
+    margin-top: 30px;
+    font-family: "Segoe UI Variable";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+  }
+  .imageForFirst {
+    width: 99%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .relativeP {
+    position: absolute;
+    color: #dedede;
+    display: none;
+    font-family: "Segoe UI Variable";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: -100px;
+  }
+  .wrapPerevagu {
+    width: 99%;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: -4.79px 7.19px 45.52px rgba(0, 0, 0, 0.69);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  .mainPinperev {
+    color: #e87a4f;
+    margin-top: 29px;
+    font-family: "Segoe UI Variable";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .prevInd {
+    color: #000;
+    margin-top: 14px;
+    font-family: "Segoe UI Variable";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .wrapTwoUl {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 46px;
+  }
+  .nameForBoiler {
+    display: none;
+  }
+  .wrapOneBlocInVuizd {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .blockForVuizd {
+    width: calc(100% - 10px);
+    height: auto;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .diagnostPn {
+    color: #000;
+
+    font-family: "Segoe UI Variable";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+  }
+  ul.newulForBlock {
+    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .iconremBouler {
+    width: 99%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .wrapOneBlocInVuizdTwo {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .wrapOneBlocInVuizdThre {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .blockForVuizdTwo {
+    width: calc(99% - 10px);
+    height: auto;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .freConsult {
+    width: 479px;
+    height: 84.34px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    color: #e87a4f;
+
+    font-family: "Segoe UI Variable";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .aboutUsWrapQw {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+  .videoContainer {
+    flex: 1 1 500px;
+    max-width: 99%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  .videoContainer {
+    flex: 1 1 500px;
+    max-width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+  .remontBilder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+  .leftSdas {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  .rigArrovLf {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  .blockForRemDsa {
+    width: calc(100% - 70px);
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75);
+    background: #f3f4f4;
+    border-radius: 20px;
+  }
+  .remInSlider {
+    max-width: 99%;
+
+    color: #272727;
+    text-align: center;
+    font-family: "Segoe UI Variable";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .smalRemInds {
+    color: #000;
+    width: 90%;
+    text-align: center;
+    font-family: "Segoe UI Variable";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .priceVidInSlider {
+    color: #272727;
+
+    font-family: "Segoe UI Variable";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .wrapWiners {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 2;
+  }
+  .oneBLockInWiner {
+    max-width: 300px;
+    height: 196.43px;
+    background: #f0f1f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    border: 0.81px solid black;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 800px) {
+  .h1Wrap {
+    width: 99%;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: auto;
+    background: #e87a4f;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firsth1 {
+    color: #fff;
+
+    font-family: "Segoe UI Variable";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+  }
+  .wrapdownBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wrapPerevagu {
+    width: 99%;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: -4.79px 7.19px 45.52px rgba(0, 0, 0, 0.69);
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+  }
+  .wrapTwoUl {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 46px;
+  }
+  .wrapOneBlocInVuizd {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .wrapOneBlocInVuizdTwo {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .wrapOneBlocInVuizdThre {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .nameForBoiler {
+    display: none;
+  }
+  .aboutUsWrapQw {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .remontBilder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+  }
+  .wrapWiners {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 2;
+  }
+}

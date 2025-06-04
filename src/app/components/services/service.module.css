@@ -1,0 +1,357 @@
+.firstBlockWrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+.datFirst {
+  position: absolute;
+  top: 0;
+  left: 50.6%;
+}
+.datSecond {
+  position: absolute;
+  top: 0;
+  right: 50.6%;
+}
+.wrapFirstInServ {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 20;
+  margin-top: 150px;
+}
+.wrapFirstInServAsk {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 20;
+}
+.h1ServOffer {
+  color: Black;
+  margin: 0;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.blockWrapServise {
+  margin-top: 51px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 121px;
+}
+.blockCssServ {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(467px);
+  height: calc(451px);
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 90% 100%, 0% 100%);
+  background: #e87a4f;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.blockCssServBigSitca {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 367px;
+  height: 476px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 90% 100%, 0% 100%);
+  background: #0c0c0c;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.blockCssServAnather {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(367px);
+  height: calc(468px);
+  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 90% 100%, 0% 100%);
+  background: #0c0c0c;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.sitcaSt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapSmallKL {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.wrapSmallKLNew {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.landP {
+  color: #fff;
+  margin: 0;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.servDesc {
+  width: 387px;
+  height: auto;
+  overflow: hidden;
+  color: white;
+
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.moreDetails {
+  margin: 0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background: white;
+  border-radius: 5px;
+}
+.arrowUp {
+  margin-right: 8px;
+}
+.wrapQuestAndG {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.wrapAllQuestion {
+  width: 657px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wrapAllQuestion {
+  width: 657px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.oneAsk {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.wrapOjut {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.oneQuestiMainNumber {
+  margin: 0;
+  color: #595959;
+  margin-right: 16px;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.pOneQiedsO {
+  margin: 0;
+  color: black;
+
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.ansver {
+  margin: 0;
+  color: black;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 16px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.hidden {
+  display: none;
+}
+.asdf {
+  width: 531.605px;
+  height: 531.613px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 479px) and (min-width: 300px) {
+  .wrapFirstInServ {
+    align-items: center;
+  }
+  .blockWrapServise {
+    justify-content: center;
+  }
+  .h1ServOffer {
+    text-align: center;
+  }
+  .wrapFirstInServAsk {
+    width: 99%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 20;
+  }
+  .wrapAllQuestion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapQuestAndG {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+  .asdf {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 479px) {
+  .wrapFirstInServ {
+    align-items: center;
+  }
+  .blockWrapServise {
+    justify-content: center;
+  }
+  .h1ServOffer {
+    text-align: center;
+  }
+  .wrapFirstInServAsk {
+    width: 99%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 20;
+  }
+  .wrapAllQuestion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapQuestAndG {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+  .asdf {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 700px) {
+  .wrapQuestAndG {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+  .blockWrapServise {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+  .wrapQuestAndG {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+}

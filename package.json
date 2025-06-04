@@ -1,0 +1,47 @@
+{
+  "name": "boiler",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@next/third-parties": "^15.3.3",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "accept-language": "^3.0.20",
+    "axios": "^1.9.0",
+    "firebase": "^11.8.1",
+    "formidable": "^3.5.4",
+    "i18next": "^25.2.1",
+    "i18next-browser-languagedetector": "^8.1.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.1",
+    "next": "^14.2.8",
+    "next-auth": "^4.24.11",
+    "next-video": "^2.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.5.2",
+    "react-icons": "^5.5.0",
+    "react-photo-view": "^1.2.7",
+    "react-player": "^2.16.0",
+    "react-quill": "^2.0.0",
+    "react-slick": "^0.30.3",
+    "react-youtube": "^10.1.0",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.22.0",
+    "three": "^0.177.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "typescript": "5.8.3"
+  }
+}
