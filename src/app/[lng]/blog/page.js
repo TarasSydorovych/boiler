@@ -11,6 +11,8 @@ import OneWorkWrap from "../../components/works/oneWorkWrap";
 import css from "styled-jsx/css";
 import OneProductWrap from "../../components/blog/oneProductWrap";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Chat from "../../components/chat/chat";
+
 // Функція для отримання робіт з API
 async function getWorks() {
   const res = await fetch("http://localhost:3000/api/blogs", {
@@ -49,6 +51,7 @@ export default async function WorksPage({ params: { lng } }) {
           </main>
         </div>
       </div>
+      <Chat />
       <Footer t={t} lng={lng} />
     </div>
   );

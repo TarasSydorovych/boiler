@@ -12,7 +12,7 @@ const ThreeBlock = ({ t, lng }) => {
         <div className={css.blockForVuizd}>
           <p className={css.diagnostPn}>{t("vuizd")}</p>
           <ul className={css.newulForBlock}>
-            <li className={css.orangeLi}>{t("vartist")} 200грн</li>
+            {/* <li className={css.orangeLi}>{t("vartist")} 200грн</li> */}
             <li className={css.orangeLi}>{t("forFree")}</li>
           </ul>
         </div>

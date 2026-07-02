@@ -373,6 +373,17 @@
   color: white;
   font-size: 40px;
 }
+.wrapTwop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.mobileMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 @media only screen and (max-width: 479px) and (min-width: 300px) {
   .ulInFooterO {
     display: flex;
@@ -384,7 +395,7 @@
   }
   .logo {
     height: 25px;
-    width: auto;
+    width: 55px;
   }
   .firtInHeader {
     width: 100%;

@@ -13,10 +13,20 @@
   height: 186.67px;
   background: #e87a4f;
   border-radius: 10px;
-  margin-top: 100px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.firsth1NewMa {
+  font-family: "Segoe UI Variable";
+  color: black;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 60px;
+  text-align: center;
 }
 .firsth1 {
   color: #fff;
@@ -69,6 +79,22 @@
   line-height: normal;
   border-radius: 10px;
   cursor: pointer;
+  animation: pulse 2s infinite;
+  will-change: transform, opacity;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 .imageForFirst {
   width: 490px;
@@ -549,7 +575,136 @@ ul.newulForBlock li::marker {
   color: #444;
   font-family: "Segoe UI Variable", sans-serif;
 }
+.pPriceInFdsd {
+  font-size: 50px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #444;
+  font-family: "Segoe UI Variable", sans-serif;
+  font-weight: bolder;
+}
+.wrapPriceTable {
+  width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+/* components/price/PriceTable.module.css */
+
+.section {
+  padding: 24px 0;
+}
+.h2 {
+  text-align: center;
+  margin: 0 0 14px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 900px; /* ✅ центр і обмеження ширини */
+  margin: 0 auto; /* ✅ по центру */
+  padding: 0 16px; /* ✅ поля з боків на мобілці */
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+.thead th {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b7280;
+  background: #fafafa;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.thPrice {
+  text-align: right;
+}
+
+.tr:not(:last-child) .td {
+  border-bottom: 1px solid #f1f5f9;
+}
+.td {
+  padding: 14px 16px;
+  vertical-align: top;
+}
+
+.titleCell {
+  width: 70%;
+}
+.priceCell {
+  width: 30%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.name {
+  font-weight: 500;
+}
+.note {
+  display: block;
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 12px;
+}
+.from,
+.currency {
+  opacity: 0.8;
+}
+.amount {
+  font-weight: 700;
+}
+
+/* Мобільна адаптація: перетворюємо рядок на «картку» */
+@media (max-width: 640px) {
+  .thead {
+    display: none;
+  }
+  .tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 14px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .td {
+    padding: 0;
+    border: 0;
+  }
+  .titleCell {
+    flex: 1;
+  }
+  .priceCell {
+    text-align: right;
+  }
+}
+
 @media only screen and (max-width: 479px) and (min-width: 300px) {
+  .firsth1NewMa {
+    font-family: "Segoe UI Variable";
+    color: black;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 60px;
+    text-align: center;
+  }
   .h1Wrap {
     width: 99%;
     padding-left: 2px;
@@ -598,7 +753,7 @@ ul.newulForBlock li::marker {
     text-align: center;
   }
   .buttonSendForm {
-    width: 99%;
+    width: 90%;
     height: 64px;
     display: flex;
     align-items: center;
@@ -615,8 +770,8 @@ ul.newulForBlock li::marker {
     border-radius: 10px;
   }
   .imageForFirst {
-    width: 99%;
-    height: auto;
+    width: 300px;
+    height: 223px;
     border-radius: 10px;
     margin-top: 20px;
   }
@@ -1199,6 +1354,16 @@ ul.newulForBlock li::marker {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+  .firsth1NewMa {
+    font-family: "Segoe UI Variable";
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 60px;
+    text-align: center;
   }
   .wrapWiners {
     position: relative;

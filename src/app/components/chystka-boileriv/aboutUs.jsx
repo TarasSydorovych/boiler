@@ -4,7 +4,12 @@ const AboutUs = () => {
   return (
     <section className={css.aboutUsWrapQw}>
       <div className={css.videoContainer}>
-        <video className={css.video} controls playsInline>
+        <video
+          className={css.video}
+          controls
+          playsInline
+          poster="/videos/priceForEnter.webp" // шлях до зображення
+        >
           <source src="/videos/newVideoa.mp4" type="video/mp4" />
           Ваш браузер не підтримує відео.
         </video>

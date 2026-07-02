@@ -1,0 +1,125 @@
+@keyframes bounceAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px); /* Підстрибнути на 5 пікселів вгору */
+  }
+}
+.simpleChatIcons {
+}
+.sectionWrap {
+  position: fixed;
+  top: 65%;
+  right: 2%;
+  width: 66px;
+  height: auto;
+  background: var(--standart-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.9s;
+  padding-bottom: 15px;
+  animation: bounceAnimation 0.9s ease-in-out infinite;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.wrapX {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--standart-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+}
+.bsFillPhoneVibrateFill {
+  color: white;
+  font-size: 35px;
+  align-self: flex-end;
+}
+.faViber {
+  color: #7c52ef;
+  font-size: 60px;
+  cursor: pointer;
+}
+.faWhat {
+  color: #0bd05e;
+  font-size: 40px;
+  cursor: pointer;
+}
+.telegram {
+  color: #1d9ed9;
+  font-size: 60px;
+  cursor: pointer;
+}
+.expanded {
+  top: calc(85% - 220px);
+  height: calc(270px - 10px);
+  padding-top: 10px;
+  border-radius: 20px;
+  border: 2px solid var(--standart-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  animation-play-state: paused;
+  background: white;
+}
+
+/* Стилі для іконок (перевірте значення top та left для правильного позиціонування) */
+.icon {
+  position: absolute;
+  top: 50%; /* Змініть на потрібне значення */
+  left: 50%; /* Змініть на потрібне значення */
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+.aiOutlineClose {
+  color: white;
+  font-size: 30px;
+}
+.aPhone {
+  font-size: 25px;
+  color: white;
+}
+.phoneButton {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.phoneList {
+  width: 170px;
+  height: auto;
+  position: absolute;
+  right: 90px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  z-index: 999;
+}
+.phoneLink {
+  font-family: "Segoe UI Variable";
+  font-size: 20px;
+}

@@ -163,6 +163,7 @@ import "../../../components/font/monrope/stylesheet.css";
 import PictureBlock from "../../../components/blog/pictureBlock";
 import ButtonSendMess from "../../../components/works/buttonSendMess";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Chat from "../../../components/chat/chat";
 
 // Функція для отримання конкретної роботи з API
 async function getWorkById(id) {
@@ -185,14 +186,42 @@ async function getWorkById(id) {
   }
 }
 
-// Генерація метаданих для сторінки
-export async function generateMetadata({ params }) {
-  const { blog, lng } = params; // Оновлено з work на blog
+// export async function generateMetadata({ params }) {
+//   const { blog, lng } = params;
 
-  // Отримуємо дані про роботу з API
+//   // Отримуємо дані про роботу з API
+//   let workData;
+//   try {
+//     workData = await getWorkById(blog);
+//   } catch (error) {
+//     console.error("Не вдалося отримати роботу для мета-тегів");
+//     return {
+//       title: "Сторінка не знайдена",
+//       description: "Сторінка не знайдена",
+//     };
+//   }
+
+//   const seoTitle = workData.translations[lng]?.seotitle || "Назва не доступна";
+//   const seoDescription =
+//     workData.translations[lng]?.seodescription || "Опис не доступний";
+
+//   return {
+//     title: seoTitle,
+//     description: seoDescription,
+//     alternates: {
+//       canonical: `https://zp-boyler.zp.ua/${lng}/blogs/${blog}`,
+//     },
+//   };
+// }
+export async function generateMetadata({ params }) {
+  const { blog, lng } = params;
+
+  const baseUrl = "https://zp-boyler.zp.ua";
+
+  // Отримуємо дані про блог
   let workData;
   try {
-    workData = await getWorkById(blog); // Оновлено з work на blog
+    workData = await getWorkById(blog);
   } catch (error) {
     console.error("Не вдалося отримати роботу для мета-тегів");
     return {
@@ -205,11 +234,22 @@ export async function generateMetadata({ params }) {
   const seoDescription =
     workData.translations[lng]?.seodescription || "Опис не доступний";
 
+  const slugPath = `/blogs/${blog}`;
+
+  const hrefUa = `${baseUrl}/ua/${slugPath}`;
+  const hrefRu = `${baseUrl}/ru/${slugPath}`;
+  const hrefCanonical = lng === "ru" ? hrefRu : hrefUa;
+
   return {
     title: seoTitle,
     description: seoDescription,
     alternates: {
-      canonical: `https://yourwebsite.com/${lng}/blogs/${blog}`,
+      canonical: hrefCanonical,
+      languages: {
+        uk: hrefUa,
+        ru: hrefRu,
+        "x-default": hrefUa,
+      },
     },
   };
 }
@@ -282,6 +322,7 @@ export default async function WorkDetailPage({ params }) {
           ></iframe>
         </div>
       )}
+      <Chat />
       <Footer t={t} lng={lng} />
     </div>
   );

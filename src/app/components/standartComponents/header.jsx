@@ -1,7 +1,7 @@
 import css from "./standart.module.css";
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import Image from "next/image";
-import logog from "../../components/img/logog.png";
+import logog from "../../components/img/logog.webp";
 import Link from "next/link";
 import LanguageSelectorRu from "./lenguageSelector/languageSelectorRu";
 import LanguageSelectorEn from "./lenguageSelector/languageSelectorEn";

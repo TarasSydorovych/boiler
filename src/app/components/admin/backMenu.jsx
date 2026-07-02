@@ -37,6 +37,9 @@ const BackMenu = () => {
       <Link href={`/admin/blog`} className={css.linkInDas}>
         Блог
       </Link>
+      <Link href={`/admin/price`} className={css.linkInDas}>
+        Ціни
+      </Link>
       <button onClick={handleLogout} className={css.logoutButton}>
         Вийти
       </button>

@@ -355,3 +355,14 @@
     margin-top: 64px;
   }
 }
+.seoText {
+  width: 80%;
+  margin: 0;
+  color: black;
+
+  font-family: "Segoe UI Variable", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

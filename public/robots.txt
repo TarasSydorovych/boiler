@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /admin/
 
-Sitemap: http://zp-boyler.zp.ua/sitemap.xml
+Sitemap: https://zp-boyler.zp.ua/sitemap.xml

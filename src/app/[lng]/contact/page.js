@@ -5,6 +5,7 @@ import { useTranslation } from "../../i18n";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 import Footer from "../../components/standartComponents/footer";
+import Chat from "../../components/chat/chat";
 
 import FirstBlockContact from "../../components/contact/firstBlockContact";
 const metadataByLanguage = {
@@ -24,9 +25,22 @@ const metadataByLanguage = {
 export async function generateMetadata({ params }) {
   const { lng } = params;
   const metadata = metadataByLanguage[lng] || metadataByLanguage.en;
+  const baseUrl = "https://zp-boyler.zp.ua";
+  const currentPath = "contact"; // головна сторінка → "" (без шляху)
+  const urlUa = `${baseUrl}/ua/${currentPath}`;
+  const urlRu = `${baseUrl}/ru/${currentPath}`;
+  const isRu = lng === "ru";
   return {
     title: metadata.title,
     description: metadata.description,
+    alternates: {
+      canonical: isRu ? urlRu : urlUa,
+      languages: {
+        uk: urlUa,
+        ru: urlRu,
+        "x-default": urlUa,
+      },
+    },
   };
 }
 const About = async ({ params: { lng } }) => {
@@ -37,6 +51,7 @@ const About = async ({ params: { lng } }) => {
       <GoogleAnalytics gaId="G-YWFWM7SVSP" />
       <Header t={t} lng={lng} />
       <FirstBlockContact t={t} lng={lng} />
+      <Chat />
       <Footer t={t} lng={lng} />
     </main>
   );

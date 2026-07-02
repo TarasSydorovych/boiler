@@ -69,6 +69,21 @@
   line-height: normal;
   border-radius: 10px;
   cursor: pointer;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(232, 122, 79, 0.7);
+  }
+  70% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 10px rgba(232, 122, 79, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(232, 122, 79, 0);
+  }
 }
 .imageForFirst {
   width: 490px;

@@ -61,8 +61,8 @@ async function handlePostRequest(req, res) {
       name,
       shortDescription,
       longDescription,
-      seotitle, // Додаємо поля SEO Title
-      seodescriptions, // Додаємо поля SEO Опис
+      seotitle,
+      seodescriptions,
       seoText,
       images,
       characteristics,
@@ -104,8 +104,8 @@ async function handlePutRequest(req, res) {
         name,
         shortDescription,
         longDescription,
-        seotitle, // Додаємо поля SEO Title
-        seodescriptions, // Додаємо поля SEO Опис
+        seotitle,
+        seodescriptions,
         seoText,
         images,
         characteristics,

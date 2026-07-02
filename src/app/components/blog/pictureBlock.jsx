@@ -97,7 +97,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
-
+const baseUrl = "https://zp-boyler.zp.ua";
 // Кастомна стрілка "Назад"
 const PrevArrow = ({ onClick }) => {
   return (
@@ -119,13 +119,13 @@ const NextArrow = ({ onClick }) => {
 const PictureBlock = ({ productData }) => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: productData.photos.length > 1,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true, // Вмикаємо стрілки
-    prevArrow: <PrevArrow />, // Кастомна стрілка "Назад"
-    nextArrow: <NextArrow />, // Кастомна стрілка "Вперед"
+    arrows: productData.photos.length > 1, // ховаємо стрілки при одному фото
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
   };
 
   return (
@@ -136,11 +136,11 @@ const PictureBlock = ({ productData }) => {
             {productData &&
               productData.photos.map((el, index) => (
                 <div key={index}>
-                  <PhotoView src={el}>
+                  <PhotoView src={`${baseUrl}${el}`}>
                     <img
-                      src={el}
+                      src={`${baseUrl}${el}`}
                       alt={`Image ${index}`}
-                      className={css.imgBigA} // Використовуємо клас для стилізації зображення
+                      className={css.imgBigA}
                     />
                   </PhotoView>
                 </div>

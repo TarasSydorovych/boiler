@@ -14,7 +14,10 @@ import SecondBlock from "../../components/chystka-boileriv/secondBlock";
 import ThreeBlock from "../../components/chystka-boileriv/threeBlock";
 import FourBlockUa from "../../components/chystka-boileriv/fourBlockUa";
 import FourBlockRu from "../../components/chystka-boileriv/fourBlockRu";
-import AboutUs from "../../components/chystka-boileriv/aboutUs";
+import AboutUs from "../../components/mainPage/aboutUs";
+import Chat from "../../components/chat/chat";
+import GoogleReviews from "../../components/google/GoogleReviews";
+
 const metadataByLanguage = {
   ua: {
     title: "Чистка бойлерів у Запоріжжі — ZP-Boyler",
@@ -31,11 +34,21 @@ const metadataByLanguage = {
 export async function generateMetadata({ params }) {
   const { lng } = params;
   const metadata = metadataByLanguage[lng] || metadataByLanguage.ua;
+  const baseUrl = "https://zp-boyler.zp.ua";
+  const currentPath = "chystka-boileriv"; // головна сторінка → "" (без шляху)
+  const urlUa = `${baseUrl}/ua/${currentPath}`;
+  const urlRu = `${baseUrl}/ru/${currentPath}`;
+  const isRu = lng === "ru";
   return {
     title: metadata.title,
     description: metadata.description,
     alternates: {
-      canonical: metadata.canonical,
+      canonical: isRu ? urlRu : urlUa,
+      languages: {
+        uk: urlUa,
+        ru: urlRu,
+        "x-default": urlUa,
+      },
     },
   };
 }
@@ -51,11 +64,14 @@ const Home = async ({ params: { lng } }) => {
         <GoogleAnalytics gaId="G-YWFWM7SVSP" />
         <Header t={t} lng={lng} />
         <FirstBlock t={t} lng={lng} />
+        <GoogleReviews />
         <SecondBlock t={t} lng={lng} />
         <ThreeBlock t={t} lng={lng} />
-        <AboutUs />
+        <AboutUs t={t} lng={lng} />
+
         {lng === "ru" ? <FourBlockRu /> : <FourBlockUa />}
         {lng === "ru" ? <SeoBlockRu /> : <SeoBlockUa />}
+        <Chat />
         <Footer t={t} lng={lng} />
       </main>
     </>

@@ -48,24 +48,6 @@ async function handleGetRequest(req, res) {
   }
 }
 
-// async function handlePostRequest(req, res) {
-//   try {
-//     const { translations, videoId, photos } = req.body;
-
-//     const newBlog = new Blog({
-//       translations,
-//       videoId,
-//       photos,
-//     });
-
-//     await newBlog.save();
-//     res.status(201).json({ success: true, data: newBlog });
-//   } catch (error) {
-//     res
-//       .status(500)
-//       .json({ success: false, error: "Помилка при створенні блогу" });
-//   }
-// }
 async function handlePostRequest(req, res) {
   try {
     console.log("🔹 Отримано POST-запит до /api/blogs");

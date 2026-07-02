@@ -13,7 +13,7 @@ const NavigationsRu = () => {
   // Визначення ширини екрану
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 960); // Мобільна версія при ширині <= 768px
+      setIsMobile(window.innerWidth <= 960); // Мобільна версія при ширині <= 768p
     };
 
     handleResize(); // Виклик при першому рендері
@@ -30,6 +30,13 @@ const NavigationsRu = () => {
     <>
       {isMobile ? (
         <div className={css.mobileMenu}>
+          <div className={css.wrapTwop}>
+            <a href="tel:+380992465404">(099) 246 54 04</a>
+
+            <a href="tel:+380962960328" className={css.hrefToA}>
+              (096) 296 03 28
+            </a>
+          </div>
           <button onClick={toggleMenu} className={css.hamburgerButton}>
             {isMenuOpen ? <MdClose size={30} /> : <RxHamburgerMenu size={30} />}
           </button>
@@ -37,7 +44,7 @@ const NavigationsRu = () => {
             <div className={css.fullScreenMenu}>
               <IoMdClose className={css.ioMdClose} onClick={toggleMenu} />
               <ul className={css.mobileNav}>
-                <a href="tel:+380992465404">(099) 246 54 04</a>
+                {/* <a href="tel:+380992465404">(099) 246 54 04</a> */}
                 <li>
                   <Link href={`/ru`} className={css.link} onClick={toggleMenu}>
                     Главная

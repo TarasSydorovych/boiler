@@ -1,5 +1,5 @@
 import css from "./main.module.css";
-import rectangle from "../img/Rectangle.png";
+import rectangle from "../img/Rectangle.webp";
 import Image from "next/image";
 import ButtonFreeConsultation from "./ButtonFreeConsultation";
 const FirstBlock = ({ t, lng }) => {

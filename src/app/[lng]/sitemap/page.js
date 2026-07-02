@@ -5,7 +5,7 @@ import Header from "../../components/standartComponents/header";
 import { useTranslation } from "../../i18n";
 
 import Footer from "../../components/standartComponents/footer";
-
+import Chat from "../../components/chat/chat";
 import FirstBlock from "../../components/sitemap/firstBlock";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -37,7 +37,7 @@ const Sitemap = async ({ params: { lng } }) => {
       <GoogleAnalytics gaId="G-YWFWM7SVSP" />
       <Header t={t} lng={lng} />
       <FirstBlock t={t} lng={lng} />
-
+      <Chat />
       <Footer t={t} lng={lng} />
     </main>
   );

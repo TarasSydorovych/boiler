@@ -28,9 +28,9 @@ export default async function handler(req, res) {
 
 async function handleGetRequest(req, res) {
   try {
-    const { id } = req.query; // Перевіряємо, чи є ID у запиті
+    const { id } = req.query;
     if (id) {
-      const work = await Work.findById(id); // Знаходимо роботу за ID
+      const work = await Work.findById(id);
       if (!work) {
         return res
           .status(404)
@@ -38,7 +38,7 @@ async function handleGetRequest(req, res) {
       }
       res.status(200).json({ success: true, data: work });
     } else {
-      const works = await Work.find(); // Отримуємо всі роботи
+      const works = await Work.find();
       res.status(200).json({ success: true, data: works });
     }
   } catch (error) {
@@ -53,7 +53,7 @@ async function handlePostRequest(req, res) {
     const { translations, videoId, photos } = req.body;
 
     const newWork = new Work({
-      translations, // багатомовний контент
+      translations,
       videoId,
       photos,
     });

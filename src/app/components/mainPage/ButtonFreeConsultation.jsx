@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 
 const translations = {
   ua: {
-    title: "Безкоштовна консультація",
+    title: "Змовити консультацію",
     namePlaceholder: "Ваше ім'я",
     phonePlaceholder: "Ваш телефон",
     submitButton: "Відправити",
@@ -16,7 +16,7 @@ const translations = {
     popupTitle: "Залиште заявку на консультацію",
   },
   ru: {
-    title: "Бесплатная консультация",
+    title: "Заказать консультацию",
     namePlaceholder: "Ваше имя",
     phonePlaceholder: "Ваш телефон",
     submitButton: "Отправить",
@@ -43,13 +43,13 @@ const ButtonFreeConsultation = ({ t }) => {
 
     try {
       await emailjs.send(
-        "service_j1k8xeo", // Новий Service ID
-        "template_37pxcwy", // Новий Template ID
+        "service_j1k8xeo",
+        "template_37pxcwy",
         {
           name: data.name,
           phone: data.phone,
         },
-        "kJwgpMvooReE0v_CT" // Новий Public Key
+        "kJwgpMvooReE0v_CT"
       );
 
       Swal.fire({

@@ -337,3 +337,189 @@
 .logoutButton:hover {
   background-color: #c9302c;
 }
+/* AdminPrices.module.css */
+
+/* Контейнер сторінки */
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+/* Топова панель */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.h1 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.actionsTop {
+  display: flex;
+  gap: 10px;
+}
+
+/* Кнопки */
+.btn,
+.btnDanger,
+.iconBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #f8fafc;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btnDanger {
+  background: #fff1f2;
+  border-color: #fecdd3;
+  color: #b91c1c;
+}
+.btnDanger:hover {
+  background: #ffe4e6;
+}
+
+.iconBtn {
+  width: 36px;
+  padding: 0;
+}
+
+/* «Таблиця» як блок зі строками */
+.table {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Шапка */
+.head {
+  background: #fafafa;
+  color: #6b7280;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Один рядок (і шапка, і дані) */
+.row {
+  display: grid;
+  grid-template-columns:
+    150px /* key */
+    1fr /* UA */
+    1fr /* RU */
+    1.2fr /* Примітка */
+    120px /* Ціна */
+    120px /* Тип */
+    110px /* Порядок */
+    minmax(220px, 1fr); /* Дії */
+  gap: 10px;
+  align-items: center;
+  padding: 12px 14px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row:not(.head):hover {
+  background: #fcfcfd;
+}
+
+/* Поля вводу */
+.input,
+.inputNum,
+.select {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  outline: none;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+  font-size: 14px;
+}
+
+.inputNum {
+  text-align: right;
+}
+
+.input:focus,
+.inputNum:focus,
+.select:focus {
+  border-color: #a5b4fc;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* Комірка з діями */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+/* Лоадер */
+.wrap:has(> .loading) {
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+}
+.loading {
+  color: #6b7280;
+}
+
+/* Адаптив */
+@media (max-width: 1200px) {
+  .row {
+    grid-template-columns:
+      140px 1fr 1fr 1fr
+      110px 110px 100px
+      minmax(200px, 1fr);
+  }
+}
+
+@media (max-width: 960px) {
+  /* Додаємо горизонтальний скрол для всієї таблиці,
+     щоб не ламати форму на вузьких екранах */
+  .table {
+    overflow-x: auto;
+  }
+  .row {
+    min-width: 900px; /* ширина, при якій макет ще не ламається */
+  }
+}
+
+@media (max-width: 640px) {
+  .wrap {
+    padding: 16px;
+  }
+  .actionsTop {
+    flex-wrap: wrap;
+  }
+}
